@@ -17,6 +17,7 @@ app.get("/", function (request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
 
+/*
 console.log('Creating a simple HTTP request');
 
 http.get("https://api.darksky.net/forecast/YOUR_API_KEY/37.7577,-122.4376", function(res) {
@@ -35,7 +36,7 @@ http.get("https://api.darksky.net/forecast/YOUR_API_KEY/37.7577,-122.4376", func
 // If any error has occured, log error to console
 .on('error', function(e) {
   console.log("Got error: " + e.message);
-});
+}); */
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
