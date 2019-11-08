@@ -1,5 +1,4 @@
-/*  JavaScript 6th Edition
-    Chapter 11
+/*  Unit 6
     Chapter case
 
     Whole Spectrum Energy Solutions
